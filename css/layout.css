@@ -1,0 +1,33 @@
+.app-container{
+	position:relative;
+	
+}
+.app-container span{
+	display:inline-block;
+	color:white;
+	font-size:20px;
+}
+.scoreBoard{
+	position:absolute;
+	bottom:0%;
+}
+.starting{
+	position:absolute;
+	top:10%;
+	left:0%;
+}
+.starting button{
+	width:200px;
+	height:200px;
+	font-size:40px;
+	background-color:black;
+	border:2px solid red;
+	color:white;
+	font-weight:bold;
+	border-radius:50%;
+}
+.draw-class{
+	background-image: url('../images/carlogo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

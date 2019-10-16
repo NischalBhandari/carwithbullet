@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/layout.css">
+	<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<div id="app" class="app-container">
+			<div id="startGame" class="starting">
+				<button id="startButton">Start</button>
+				<br/>
+				<span>Press space to fire gun</span>
+				<br/>
+				<span>Press A,D to move </span>
+			</div>
+			<div id="scoreBoard" class="scoreBoard">
+				<span>The Score is:</span>
+			<span id="scoreCounter">0</span>
+			<span>The level is :</span>
+			<span id="levelCounter">1</span>
+			<button id="restart">Restart</button>
+			</div>
+
+			<canvas id="canvas" width="1000" height="600" class="draw-class"></canvas>
+		</div>
+
+
+
+		<script src='./js/game.js'></script>
+	</body>
+</html>
